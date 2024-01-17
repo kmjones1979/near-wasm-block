@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import "proto/near.proto";
+import "near.proto";
 
 package receipts.v1;
 
@@ -9,7 +9,3 @@ message BlockAndReceipts {
     repeated sf.near.codec.v1.ExecutionOutcomeWithId outcome = 2;
     repeated sf.near.codec.v1.Receipt receipt = 3;
 }
-
- 
-
-
